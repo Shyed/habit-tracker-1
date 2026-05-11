@@ -1,3 +1,4 @@
+/* MAIN PAGE STYLING */
 body {
   font-family: Arial, sans-serif;
   max-width: 600px;
@@ -8,33 +9,94 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-h1 {
-  text-align: center;
+/* HEADER */
+header {
+  width: 100%
+  background: white; 
+  padding: 2rem, 1rem; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  margin-bottom: 2rem; 
+  display: flex; 
+  flex-direction: column; 
+  align-item: center; 
+  text-align: center; 
 }
 
+.logo {
+  width: 80px;
+  height: auto; 
+  margin-bottom: 0.5rem;
+}
+
+.header-text {
+  display: flex; 
+  flex-direction: column; 
+  align-item: center;
+}
+
+/* Main Title */
+header h1 {
+  margin: 0; 
+  font-size: 2.5rem;
+}
+
+/* Subtitle */
+header h2{
+  margin-top: 0.25rem; 
+  color: #0077ff;
+  font-weight: normal; 
+  font-size: 1.2 rem;
+}
+
+/* Project description */
+.project-description {
+  max-width: 600px; 
+  margin-top: 1rem; 
+  color: #666; 
+  line-height: 1.5; 
+  font-size: 1rem;
+}
+
+/* MAIN APP CONTAINER */
+.habit-container {
+  margin: 0 auto; 
+  width: 90%; 
+  max-width: 600px;
+  background: white; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+  margin-bottom: 2rem;
+}
+
+/* FORM */
 form {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
+/* INPUT FIELD */
 input {
   padding: 10px;
   font-size: 16px;
   flex: 1;
 }
 
+/* BUTTONS */
 button {
   padding: 10px 15px;
   font-size: 16px;
   margin-left: 10px;
 }
 
+/* HABIT LIST*/
 ul {
   list-style: none;
   padding: 0;
 }
 
+/* INDIVIDUAL HABIT ITEM */
 li {
   background: white;
   padding: 10px;
