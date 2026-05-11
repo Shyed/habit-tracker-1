@@ -7,15 +7,40 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Habit Tracker</h1>
+  <header>
+    <!-- Logo -->
+    <img src="logo.png" alt="HabitTracker logo" class="logo"/>
+    
+    <!-- Header text group-->
+    <div class="header-text">
+      <h1>Habit Tracker</h1>
+      <h2>Full-Stack Portfolio Project</h2>
+      <p>A full-stack habit tracker application built with
+        HTML, CSS, JavaScript, Node.js, Express, and MongoDB 
+        to demonstrate CRUD operations, REST APIs, 
+        database integration, and dynamic UI updates
+      </p>
+    </div>
+  </header>
 
-  <form id="habitForm">
-    <input type="text" id="habitInput" placeholder="Enter a new habit" required />
-    <button type="submit">Add Habit</button>
-  </form>
+  <!-- Main app container -->
+  <div class="habit-container"> 
+    <!-- Habit Form -->
+    <form id="habitForm">
+      <input type="text" id="habitInput" placeholder="Enter a new habit" required />
+      <button type="submit">Add Habit</button>
+    </form>
+    
+    <!-- Habit list -->
+    <ul id="habitList"></ul>
+  </div>
 
-  <ul id="habitList"></ul>
+  <!-- Footer -->
+  <p> Built with HTML, CSS, JavaScript, Express, and MongoDB</p>
+  <p> @ 2026 Sheila Demonteverde </p>
 
+  <!-- JavaScript -->
   <script src="script.js"></script>
+ 
 </body>
 </html>
